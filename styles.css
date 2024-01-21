@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding-top: 100px;
+  background-color: #e7e7e7;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+header img {
+  margin-right: 15px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 200px;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: #009534;
+  color: #fff;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #026324;
+}
+
+table img {
+  height: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+table th {
+  border-bottom: 1px solid #000;
+  padding: 16px;
+}
+
+table tr {
+  text-align: center;
+}
+
+table td {
+  padding: 13px 0;
+}
+
+tfoot td {
+  padding: 20px 0;
+}
+
+.titulo-contato {
+  font-size: 18px;
+  font-weight: bold;
+}
